@@ -1,12 +1,199 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pierwszy project</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="EcoData — informatyka w ochronie środowiska. Poznaj monitoring środowiska, analizę danych i nowoczesne technologie ekologiczne.">
+  <title>EcoData | Informatyka w ochronie środowiska</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Witaj na mojej pierwszej stronie</h1>
-    <p>To jest moja pierwsza strona na GitHub Pages</p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#start" class="logo" aria-label="EcoData — strona główna">
+        <span>
+          <img class="logo-icon" src="images/logo.png" alt="logo">
+        </span>Eco<span>Data</span></a>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="burger" aria-label="Otwórz menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+      <nav aria-label="Menu główne"><ul>
+        <li><a href="#o-projekcie">O projekcie</a></li>
+        <li><a href="#obszary">Obszary</a></li>
+        <li><a href="#technologie">Technologie</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul></nav>
+    </div>
+  </header>
+  <main>
+    <section id="start" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">TECHNOLOGIA W SŁUŻBIE NATURZE</p>
+          <h1>Lepsze środowisko zaczyna się od <em>danych.</em></h1>
+          <p class="lead">Poznaj, jak informatyka pomaga obserwować zmiany w przyrodzie, analizować wyniki pomiarów i podejmować świadome decyzje dotyczące ochrony środowiska.</p>
+          <a class="button" href="#o-projekcie">Poznaj projekt 
+            <span aria-hidden="true">→</span>
+          </a>
+        </div>
+        <div class="hero-visual">
+          <img class="hero-photo" src="images/photo1.webp" alt="Monitoring środowiska">
+          <div class="visual-tag">
+            NATURA × DANE
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="o-projekcie" class="section container">
+      <p class="eyebrow">01 / O PROJEKCIE</p>
+      <h2>Czym jest informatyka w ochronie środowiska?</h2>
+      <div class="intro-grid">
+        <div>
+          <p>Informatyka w ochronie środowiska łączy wiedzę o przyrodzie z narzędziami cyfrowymi. Dzięki systemom pomiarowym, bazom danych i programom komputerowym można zbierać informacje o stanie otoczenia oraz analizować zachodzące w nim zmiany.</p>
+          <p>Nowoczesne technologie pomagają porównywać wyniki pomiarów, przedstawiać je na mapach i wykresach, a także wykrywać niepokojące trendy. Dane stają się w ten sposób praktycznym wsparciem dla naukowców, samorządów i mieszkańców.</p>
+        </div>
+        <aside class="note">
+          <span class="note-symbol">↗</span>
+          <h3>Cel strony</h3>
+          <p>Pokazanie prostym językiem, w jaki sposób technologie informatyczne wspierają badanie i ochronę środowiska naturalnego.</p>
+        </aside>
+      </div>
+    </section>
+    <section id="obszary" class="section section-soft">
+      <div class="container">
+        <p class="eyebrow">02 / OBSZARY ZASTOSOWAŃ</p>
+        <h2>Co możemy monitorować?</h2>
+        <p class="section-lead">Dane środowiskowe pochodzą z wielu źródeł. Poniżej znajdują się przykładowe obszary, w których informatyka odgrywa ważną rolę.</p>
+        <div class="cards">
+          <article class="card">
+            <img class="card-photo" src="images/photo2.jpg" alt="Jakość powietrza">
+            <div class="card-content">
+              <span class="card-number">01</span>
+              <h3>Jakość powietrza</h3>
+              <p>Czujniki umożliwiają pomiar wybranych zanieczyszczeń i warunków atmosferycznych. Zebrane dane można prezentować na wykresach i mapach.</p>
+              <h4>Przykładowe dane</h4>
+              <p>Stężenie pyłów PM2.5 i PM10, temperatura oraz wilgotność powietrza.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img class="card-photo" src="images/photo3.jpeg" alt="Jakość wody">
+            <div class="card-content">
+              <span class="card-number">02</span>
+              <h3>Jakość wody</h3>
+              <p>Systemy informatyczne wspierają gromadzenie i porównywanie wyników badań wód powierzchniowych i podziemnych.</p>
+              <h4>Przykładowe dane</h4>
+              <p>Temperatura, pH, przewodność elektrolityczna i zawartość tlenu rozpuszczonego.</p>
+            </div>
+          </article>
+          <article class="card">
+            <img class="card-photo" src="images/photo4.jpg" alt="Krajobraz">
+            <div class="card-content">
+              <span class="card-number">03</span>
+              <h3>Zmiany krajobrazu</h3>
+              <p>Zdjęcia satelitarne i systemy GIS pomagają obserwować pokrycie terenu, roślinność oraz zmiany użytkowania gruntów.</p>
+              <h4>Przykładowe dane</h4>
+              <p>Powierzchnia terenów zielonych, typy pokrycia terenu i zmiany w czasie.</p>
+            </div
+            ></article>
+        </div>
+      </div>
+    </section>
+    <section id="technologie" class="section container">
+      <p class="eyebrow">03 / NARZĘDZIA I TECHNOLOGIE</p>
+      <h2>Od pomiaru do czytelnej informacji</h2>
+      <p class="section-lead">Przetwarzanie danych środowiskowych składa się z kilku etapów — od zebrania pomiarów aż po przedstawienie wyników.</p>
+      <div class="feature">
+        <div class="feature-text">
+          <span class="step">ETAP 01</span>
+          <h3>Czujniki i zbieranie danych</h3>
+          <p>Urządzenia pomiarowe mogą regularnie rejestrować parametry środowiska. Dane z czujników są następnie zapisywane i przygotowywane do analizy.</p>
+          <p>W praktyce ważna jest nie tylko liczba pomiarów, ale również ich dokładność, częstotliwość oraz poprawne oznaczenie czasu i miejsca.</p>
+        </div>
+        <img class="hero-photo" src="images/photo5.jpg" alt="Czujnik">
+      </div>
+      <div class="feature reverse">
+        <div class="feature-text">
+          <span class="step">ETAP 02</span>
+          <h3>Analiza i wizualizacja</h3>
+          <p>Arkusze kalkulacyjne, języki programowania i narzędzia analityczne pomagają porządkować pomiary, obliczać statystyki i zauważać zależności.</p>
+          <p>Wykresy oraz zestawienia pozwalają przedstawić skomplikowane informacje w zrozumiały sposób.</p>
+        </div>
+        <img class="hero-photo" src="images/photo6.webp" alt="Wykres">
+      </div>
+      <div class="feature">
+        <div class="feature-text">
+          <span class="step">ETAP 03</span>
+          <h3>Mapy cyfrowe i GIS</h3>
+          <p>Systemy informacji geograficznej (GIS) umożliwiają łączenie danych z ich położeniem. Dzięki temu można porównywać różne obszary i prezentować wyniki na mapach tematycznych.</p>
+          <p>Mapy przydają się m.in. do przedstawiania rozmieszczenia punktów pomiarowych i zmian w zagospodarowaniu terenu. </p>
+        </div>
+        <img class="hero-photo" src="images/photo7.png" alt="Mapa GIS">
+      </div>
+    </section>
+    <section class="section quote-section">
+      <div class="container">
+        <p class="eyebrow">DLACZEGO TO WAŻNE?</p>
+        <h2>Technologia pomaga zrozumieć naturę — a dane pomagają działać odpowiedzialnie.</h2>
+        <p>Wiarygodne pomiary i przejrzyste prezentowanie wyników wspierają edukację ekologiczną oraz decyzje dotyczące środowiska.</p>
+      </div>
+    </section>
+    <section id="galeria" class="section container">
+      <p class="eyebrow">04 / GALERIA</p>
+      <h2>Środowisko w obiektywie</h2>
+      <div class="gallery">
+        <figure>
+          <img class="hero-photo" src="images/photo8.jpg" alt="Krajobraz">
+        </figure>
+        <figure>
+          <img class="hero-photo" src="images/photo9.jpg" alt="Krajobraz">
+        </figure>
+        <figure>
+          <img class="hero-photo" src="images/photo10.jpg" alt="Krajobraz">
+        </figure>
+        <figure>
+          <img class="hero-photo" src="images/photo11.jpg" alt="Krajobraz">
+        </figure>
+        <figure>
+          <img class="hero-photo" src="images/photo12.jpg" alt="Krajobraz">
+        </figure>
+      </div>
+    </section>
+    <section id="kontakt" class="section section-soft">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">05 / KONTAKT</p>
+          <h2>Masz pytanie o projekt?</h2>
+          <p>Ta sekcja może służyć do kontaktu z autorem strony lub przesyłania pomysłów na nowe treści. Formularz jest demonstracyjny i nie wysyła wiadomości.</p>
+          <p class="contact-hint">W przyszłości można dodać obsługę formularza i nowe materiały edukacyjne.</p>
+        </div>
+        <form class="contact-form" onsubmit="return false;">
+          <label for="name">Imię</label>
+          <input id="name" name="name" type="text" placeholder="Twoje imię" required>
+          <label for="email">Adres e-mail</label>
+          <input id="email" name="email" type="email" placeholder="twoj@email.pl" required>
+          <label for="message">Wiadomość</label>
+          <textarea id="message" name="message" rows="5" placeholder="Napisz wiadomość..." required>
+
+          </textarea>
+          <button type="submit" title="Formularz demonstracyjny — wysyłanie nie jest aktywne">Wyślij (demo) →</button>
+          <small>Formularz demonstracyjny — wiadomości nie są wysyłane.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container footer-inner">
+      <a href="#start" class="logo">
+        <span class="logo-icon">✳</span>
+        Eco<span>Data</span>
+      </a>
+      <p>© 2026 EcoData · Projekt edukacyjny</p>
+      <a href="#start">Powrót na górę ↑</a>
+    </div>
+  </footer>
 </body>
 </html>
